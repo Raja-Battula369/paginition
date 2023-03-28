@@ -1,0 +1,42 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  width: 100%;
+}
+.main {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  gap: 1rem;
+  align-items: center;
+
+  margin: 1rem;
+}
+
+.product__single {
+  width: 200px;
+  height: 200px;
+  background-color: antiquewhite;
+  cursor: pointer;
+  border-radius: 0.2rem;
+  margin: 0.5rem 0;
+}
+.product__single > img {
+  width: 90%;
+  height: 70%;
+  object-fit: cover;
+  padding: 0.5rem;
+  border-radius: 5rem;
+}
+span {
+  font-weight: bold;
+}
+button {
+  margin: 1rem 0.5rem;
+  cursor: pointer;
+  max-width: 30px;
+  max-height: 30px;
+}
+.addSel {
+  background-color: rgb(144, 144, 197);
+}
